@@ -157,7 +157,7 @@ public final class CallLogManager extends CallsManagerListenerBase {
         mPhoneAccountRegistrar = phoneAccountRegistrar;
         mMissedCallNotifier = missedCallNotifier;
         mLock = new Object();
-        mSensitivePhoneNumbers = SensitivePhoneNumbers.getInstance();
+        mSensitivePhoneNumbers = new SensitivePhoneNumbers();
     }
 
     @Override
