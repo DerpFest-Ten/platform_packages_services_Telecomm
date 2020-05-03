@@ -6,10 +6,7 @@ android_app {
       "telephony-ext",
       "ims-ext-common",
     ],
-    static_libs: [
-        "org.lineageos.platform.internal",
-        "org.lineageos.lib.phone",
-    ],
+    static_libs: ["org.lineageos.platform.internal"],
     srcs: [
         "src/**/*.java",
         "proto/**/*.proto",
